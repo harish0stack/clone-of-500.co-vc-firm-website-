@@ -1,0 +1,505 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+@font-face{
+    font-family:'Apercu Pro';
+    src: /* url(fonts/apercu-mono-regular-pro.woff2) format('woff2'), */
+        url(fonts/apercu-regular-pro.woff2) format('woff2');
+    font-weight:normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:'Tobias';
+    src: url(fonts/Tobias-Light.woff2) format('woff2');
+    font-weight:800;
+
+}
+body{
+    min-height: 100vh;
+    color:hsl(222.2 84% 4.9%);
+    font-family: Apercu Pro, sans-serif;
+    letter-spacing: normal;
+    font-style: normal;
+    @media(max-width: 767px){
+        font-size:4vw;
+        line-height: 5.3333333333vw;
+    }
+}
+body{
+    display: block;
+}
+
+.head{
+    --tw-bg-opacity: 1;
+    background-color: rgb(245 245 235 / var(--tw-bg-opacity));
+    border-bottom: 1px solid black;
+    display:flex;
+    justify-content:center;
+    flex-grow: 1;
+    width:100%;
+    height:4rem;
+    padding:16px 40px 16px 0px; 
+}
+.position{
+    position:fixed; z-index: 800;
+}
+.container{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width:100%;
+}
+
+.first_item img{
+    margin-left: 40px;
+    margin-right: 40px;
+    width:97px;
+    height:auto;
+    max-width:100%;
+}
+.second_item{
+    display:flex;
+    gap:2rem; /*1rem = 16px */
+    align-items:center;
+
+}
+.second_item a{
+    text-decoration: none; 
+    color : inherit;
+    font-family:  Apercu Pro, sans-serif;
+    letter-spacing: 2px;
+}
+.second_item span{
+    font-size:x-large;
+}
+span{
+    color: inherit;
+    font-style:inherit;
+}
+
+/* main content part of the html page  */
+
+.sect_1{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top:4rem;
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    border-bottom: 2px solid black;
+}
+.sect_1 .back_img{
+    min-height: 100px;
+}
+.intro{
+    display:flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    margin: 20px 2px 5px 2px;
+}
+.intro h1{
+    font-family: 'Tobias',serif;
+    font-weight:300;
+    letter-spacing:-1.3px;
+    text-align: center;
+    font-size:60px;
+    @media (max-width:767px){
+        font-size:11vw;
+        line-height: 10vw;
+        margin-bottom: 5vw;
+    }
+}
+.intro span{
+    font-family:Apercu Pro,sans-serif;
+    text-align:center;
+    box-sizing: border-box;
+    font-size:18px;
+    font-weight:normal;
+    margin:10px auto 0px auto;
+    padding-bottom:20px;
+    width: 63%;
+    text-rendering: auto;
+    height:auto;
+    line-height: 1.5vw;
+    @media (width <= 848px){
+        line-height: 3.8vw;
+        width:75%;
+    }
+}
+.middle_part {
+    display:flex;
+    align-items:center;
+    overflow: hidden;
+    width: 100%;
+}
+.slide img{
+    width:auto;
+    height:3vw;
+}
+.slide{
+    margin:2px 4vw;
+    flex-shrink: 0;
+}
+
+.slide-track{
+    display:flex; align-items:center; overflow: hidden;
+    /* width: calc(250px*10); */
+    /* width:max-content;*/ flex-shrink: 0; 
+    animation:scroll 37s linear infinite;
+}
+.slide-track:hover{
+    animation-play-state: paused;
+}
+/* animation part of the logos */
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+    
+}
+.last_p{
+    padding:40px;
+    margin:18px 96.539px 25px 96.539px;
+}
+.last_part{
+    display:flex; align-items: center; gap:10px;
+    border: 1.8px solid black; border-radius: 18px; box-sizing: border-box;
+    width:100%; height: auto;
+    padding:2px 2px 2px 10px ;
+    letter-spacing: 2px;
+    font-size: 0.89rem;
+    @media(width <= 767px) {
+        line-height:2vw;
+        width:66vw;
+        margin: 0px 5vw 0px 5vw;
+        justify-content: space-between;
+    }
+}
+
+.last_part .arrow{
+    background: black; color: aliceblue; border-radius: 50%;
+    padding:6px;
+    transition: all 500ms ease;
+    width:27px; height:auto;
+    text-align: center;
+    justify-content: end;
+
+}
+.last_part .arrow:hover{
+   transform:translateX(8px) ;
+   background-color: rgb(150, 254, 181);
+}
+/* 2 main part starts from here and the css and its styling */
+.main2{
+    --tw-bg-opacity: 1;
+    background-color: rgb(245 245 235 / var(--tw-bg-opacity));
+    padding:2rem 1rem;
+}
+.main2_sect-1{
+    font-family:'Tobias',serif;
+    padding:20px 40px;
+    width: 80%;
+    height:auto;
+    margin:0.4vw  auto 0 9vw;
+    overflow-x:hidden;
+    display: flex;
+    flex-direction: column;
+    gap:3vw;
+
+}
+.sub_1{
+    display:flex;
+    line-height:35px;
+    font-size:48px;
+    letter-spacing: -1px;
+}
+.sub_2{
+    width:46rem;
+    font-family: Apercu Pro, sans-serif;
+    font-size:18px;
+    line-height:21px;
+}
+/* main 2 part 2 of the main content */
+/* for card 1  child card of the flex/flex-card parent container*/
+.main2_sect-2{
+    display:flex;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    margin-right: 8rem;
+    @media (width <= 770px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.svg-container{
+    width: 98%;
+    padding-bottom: 5rem;
+}
+.map-obj{
+    width: 100%;
+    height: auto;
+}
+.flex-cards{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    width:71%;
+    @media (width <= 770px){
+        width: 90%;
+    }
+
+}
+#anch-text{
+    color:hsl(222.2 84% 4.9%);
+    text-decoration: none;
+}
+.base-card{
+    padding:1.3rem 2rem 1.4rem 2rem; 
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    border-radius: 8px;
+    @media (width <= 770px){
+        width:100%;
+        height:auto;
+    }
+}
+.base-card:hover{
+    background: linear-gradient(to right,#ffffff 0%, #ccebd4 100%);
+    box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.1);
+}
+.card-1{
+    display:flex;
+    flex-direction: column;
+    gap:0.1rem;
+}
+.base-item{
+    display: flex;
+    justify-content: space-between;
+    font-family: Apercu Pro, sans-serif;
+    font-weight: 500;
+    font-size:0.85rem;
+}
+.for-whom{
+    background-color: rgb(236, 234, 234);
+    border-radius:9.6px;
+    letter-spacing: 0.1rem;
+    padding: 0.2rem 0.5rem;
+}
+.base-card h2{
+    font-family:'Tobias',serif;
+    font-size:2vw;
+    letter-spacing: -1px;
+}
+/* for 3nd card inside the parent container of flex-card and flex */
+.flex-spaced{
+    display: flex;   gap:0.8rem;
+}
+/* for main2 section-3 content after the world map and cards in the main2 section-2  */
+.main2_sect-3{
+    display:flex;
+    margin:6vw  10vw 0 10vw;
+    @media (width <= 770px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* for the 1st child box of main2_sect -3 */
+.first-item{
+    display:flex;
+    flex-direction: column;
+    gap:2vw;
+}
+.sect-3-1 h2{
+    font-family:'Tobias',serif ;
+    line-height:40px;
+    font-size:2.9rem;
+    letter-spacing: -1px;
+    width:90%;
+}
+.sect-3-2{
+    font-size:18px ;
+    width:35rem;
+    line-height:19px;
+}
+/* for the 2nd child box of main2_sect -3 */
+.second-item{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    margin-left: 40px;
+    width: 150%;
+}
+.data{
+    display:flex;  gap:4vw;
+    line-height: 3.5rem;
+    width:99%; 
+}
+.data h2{
+    font-family:'Tobias',serif ; font-weight:300; font-size:3.7rem;
+    letter-spacing: -.02em;
+}
+.sub-data{
+    border-top: 1.6px solid black; 
+    width:17vw;
+    padding-top: 1.2rem;
+    box-sizing: border-box;
+}
+/* font-size of h2 is changed in 2nd and 3rd child box of parent(second-item) with flex-column layout */
+.font-size h2{
+    font-size: 3rem;
+    line-height: 3.1rem;
+}
+/* now the css styling for the main2_sect-4 container  */
+.main2_sect-4{
+    display:flex; flex-direction: column;
+    margin:6vw 8vw 0 10vw;
+    gap:3rem;
+}
+.title h2{
+    font-family:'Tobias',serif; font-size:3rem; letter-spacing: -1px;
+}
+.flex-row{
+    display: flex; gap:18px;
+}
+.card{
+    display: flex; flex-direction: column;  gap:3.4vw; 
+    padding:1.3rem 2rem 1.4rem 2rem; 
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    border-radius: 8px; width:100%;
+}
+.child-1 , .child-2{
+    display:flex; flex-direction: column; gap:1.2vw;
+}
+.child-1  h2{
+    font-family:'Tobias',serif;
+    font-size: 2.2vw;
+    letter-spacing: -1.2px;
+}
+.grey-box{
+    font-size: 0.78vw; font-weight: 500;
+    background-color:rgb(236, 234, 234); border-radius:9.6px;
+    letter-spacing: 0.1rem;
+    padding: 0.2rem 0.5rem; width:fit-content;
+}
+.white-box{
+    border:1px solid black ; border-radius:16px; box-sizing: border-box;
+    padding: 0.2rem 0.7rem; letter-spacing:1.5px; font-size: 0.9rem; font-family:'Apercu Mono','Courier ', monospace;
+    width:fit-content; transition: all ease-out;
+}
+.card:hover{
+    .white-box{
+        background-color:#A3C9A8;
+        border:1px solid #A3C9A8;
+    }
+}
+/* spacing bw the two child items in 1st card and 3rd card is fixed heree and also the time cotainer width */
+.spacing{
+    gap:6.1vw;
+}
+.time{
+    width:50%;
+    line-height: 1.2vw;
+}
+/* ------------------------------------ */
+/* the main2_sect-5 container styling starts from here */
+.main2_sect-5{
+    margin: 17vw 8vw 4vw 10vw; 
+}
+.topic , .content{
+    font-family:'Apercu Mono','Courier ',monospace ;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+.topic{
+    margin:10px 0px 30px; 
+    transition: all ease-out;
+}
+.topic:hover{
+    background-color:#A3C9A8;
+    border:2px solid #A3C9A8 ; border-radius:16px;
+    width:10%;
+}
+
+.content{
+    font-size: 0.68rem;
+}
+/* css styling of the footer container */
+footer{
+    --tw-bg-opacity:1;
+    background-color:rgb(10 30 37 /var(--tw-bg-opacity));
+    --tw-text-opacity:1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    font-family:'Apercu Mono','Courier ',monospace;
+}
+.grand-parent{
+    display:flex; flex-direction: column;
+    padding:4rem 2.5rem 2.5rem; border:2px solid black;
+}
+.child1 img{
+    width:73px;
+    height:auto;
+}
+.parent-1{
+    display:flex;
+    gap: 13.2vw;
+    padding-bottom: 1.3vw;
+    border-bottom:1.6px solid rgb(244, 243, 243) ;
+}
+.child2 a , .anchor a{
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit; text-transform: uppercase;
+    transform: scaleY(0.95);
+}
+.grid-container{
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-template-columns:repeat(4,minmax(0,1fr));
+    column-gap: 9.7vw;
+    row-gap:11.3px;
+    letter-spacing: 2.3px; font-size:0.86rem;
+}
+/* 2nd part of the footer  parent2 container styling */
+.parent-2{
+    font-size:0.86rem;
+    padding-top:1.2vw;
+}
+.parent2-1st-child{
+    display:flex; gap:2.3vw; letter-spacing: 2.3px;
+    margin-bottom:2vw;
+}
+.parent2-2nd-child{
+    display: flex; justify-content: space-between;
+}
+.parent2-2nd-child span{
+    font-family: Apercu Pro, sans-serif;
+}
+/* now parent 2 - 2nd child - 2nd child layout */
+.social-media-icons{
+    display: flex; gap:3vw;
+}
+/* hover effect for the footer container */
+.green-hov:hover {
+    color:#8cd095;
+}
+.icon:hover{
+    filter:brightness(0.7);
+}
+
+
+
+

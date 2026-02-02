@@ -1,23 +1,24 @@
 # clone-of-500.co-vc-firm-website-
 500.co is a vc firm 
-#Main-page
-<img width="1470" height="826" alt="Screenshot 2026-02-02 at 4 47 18 PM" src="https://github.com/user-attachments/assets/3e58e80e-3155-4e69-afc4-d6251c786990" />
-<img width="1470" height="830" alt="Screenshot 2026-02-02 at 4 47 35 PM" src="https://github.com/user-attachments/assets/133497cb-8481-432b-984c-7e80847cfabb" />
-<img width="1470" height="822" alt="Screenshot 2026-02-02 at 4 47 52 PM" src="https://github.com/user-attachments/assets/cee69fda-d140-45cc-925c-a15f99d701e7" />
-<img width="1470" height="832" alt="Screenshot 2026-02-02 at 4 48 03 PM" src="https://github.com/user-attachments/assets/b586f434-c588-490e-b596-11a0132da5b9" />
-<img width="1470" height="828" alt="Screenshot 2026-02-02 at 4 48 16 PM" src="https://github.com/user-attachments/assets/7f1a4c32-7800-4414-ac8f-075e85044e37" />
-<img width="1462" height="827" alt="Screenshot 2026-02-02 at 4 48 27 PM" src="https://github.com/user-attachments/assets/3d2c8c2e-bbe7-4e20-9085-946fb2de6678" />
-#Contact-page
-<img width="1470" height="829" alt="Screenshot 2026-02-02 at 4 50 40 PM" src="https://github.com/user-attachments/assets/a87bfe96-402f-4dcf-9525-b69d6d800ab8" />
-<img width="1470" height="823" alt="Screenshot 2026-02-02 at 5 22 19 PM" src="https://github.com/user-attachments/assets/dee6b8db-c1a1-4a76-a82b-049e82aa99fe" />
+# Main-page
+<img width="1470" height="833" alt="Screenshot 2026-02-02 at 11 21 59 PM" src="https://github.com/user-attachments/assets/1e4106a2-ae3e-4a37-a2f8-54fdc6d3a291" />
+<img width="1470" height="830" alt="Screenshot 2026-02-02 at 11 22 30 PM" src="https://github.com/user-attachments/assets/b53e631d-e2fd-45c5-bba7-6c9cfabeda57" />
+<img width="1469" height="828" alt="Screenshot 2026-02-02 at 11 22 44 PM" src="https://github.com/user-attachments/assets/86728e64-a98d-4f1d-9cfc-43c6a63c2270" />
+<img width="1470" height="833" alt="Screenshot 2026-02-02 at 11 22 57 PM" src="https://github.com/user-attachments/assets/a8a64340-afb8-4282-9012-5d050b47b31c" />
+<img width="1470" height="830" alt="Screenshot 2026-02-02 at 11 23 08 PM" src="https://github.com/user-attachments/assets/b16fefc7-699c-46a5-ab12-7522f70b9b4b" />
+<img width="1470" height="831" alt="Screenshot 2026-02-02 at 11 23 16 PM" src="https://github.com/user-attachments/assets/29410950-3674-4bad-af54-b1a1325a57e5" />
 
-#Apply now page for startups
+# Contact-page
+<img width="1470" height="834" alt="Screenshot 2026-02-02 at 11 26 11 PM" src="https://github.com/user-attachments/assets/f3406a64-b259-4272-b63a-73185f136fb3" />
+<img width="1470" height="829" alt="Screenshot 2026-02-02 at 11 26 19 PM" src="https://github.com/user-attachments/assets/a5a9e860-61f3-4b41-be8d-23ca4579ad1d" />
 
 
-<img width="1470" height="828" alt="Screenshot 2026-02-02 at 5 06 19 PM" src="https://github.com/user-attachments/assets/a4b63b9c-f2bf-40ed-acb0-78a857541fd4" />
-<img width="1470" height="834" alt="Screenshot 2026-02-02 at 5 06 50 PM" src="https://github.com/user-attachments/assets/d996b154-4393-4875-9c2f-433593aa3523" />
-<img width="1469" height="828" alt="Screenshot 2026-02-02 at 5 06 09 PM" src="https://github.com/user-attachments/assets/5e49ccfb-c3d6-4876-bee2-ced6cf41fc9a" />
+# Apply now page for startups
 
-<img width="1465" height="829" alt="Screenshot 2026-02-02 at 5 06 58 PM" src="https://github.com/user-attachments/assets/f6d1e317-212c-49ea-be47-fa3d76c0e7ec" />
 
+<img width="1470" height="828" alt="Screenshot 2026-02-02 at 11 28 36 PM" src="https://github.com/user-attachments/assets/969c4e53-46e6-4e13-93fc-5322c41f30a6" />
+<img width="1470" height="835" alt="Screenshot 2026-02-02 at 11 28 48 PM" src="https://github.com/user-attachments/assets/d83f9942-99aa-409c-92e4-bf49a3c06025" />
+<img width="1470" height="833" alt="Screenshot 2026-02-02 at 11 28 58 PM" src="https://github.com/user-attachments/assets/d1c383d2-cd85-4644-8fe6-d29df167bba0" />
+<img width="1470" height="832" alt="Screenshot 2026-02-02 at 11 29 13 PM" src="https://github.com/user-attachments/assets/5e23d6f8-6c8b-4aaa-9386-cbe3df4a0b5c" />
+<img width="1470" height="831" alt="Screenshot 2026-02-02 at 11 29 26 PM" src="https://github.com/user-attachments/assets/71dad3c7-19e3-48d4-bdb1-a436188addcd" />
 

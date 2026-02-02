@@ -68,8 +68,16 @@ body{
     align-items:center;
 
 }
+.apply{
+    border: 1.6px solid black; border-radius: 40px; padding:8.6px; 
+    transition: all ease-in;
+}
+.apply:hover,.port:hover{
+    background-color: #A3C9A8; border: 1.6px solid #A3C9A8; border-radius: 40px; }
+
 .second_item a{
-    text-decoration: none; 
+    text-decoration: none; padding:8.6px; 
+    transition: all ease-in;
     color : inherit;
     font-family:  Apercu Pro, sans-serif;
     letter-spacing: 2px;

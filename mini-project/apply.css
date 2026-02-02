@@ -42,9 +42,14 @@ body {
   justify-content: space-between;
   padding: 0 40px;
 }
+.second_item{
+  display: flex; gap:2vw; align-items: center;
+}
+.second_item span{ font-size: 2vw;
+}
 
 .second_item a {
-  text-decoration: none;
+  text-decoration: none; 
   color: inherit;
   letter-spacing: 2px;
 }
@@ -61,6 +66,7 @@ body {
 
 .apply-hero h2 {
     font-size:60px;
+    letter-spacing: -1.4px;
     
 }
 
@@ -70,8 +76,8 @@ body {
 }
 .apply-hero p {
   font-family: Apercu Pro, sans-serif;
-  max-width: 600px;
-  line-height: 1.6;
+  max-width: 600px;font-size: 1.2vw;
+  line-height: 1.5;
 }
 
 /* ---------- FORM ---------- */
@@ -98,7 +104,7 @@ body {
 
 label {
   margin-bottom: 0.5rem;
-  letter-spacing: 1px;
+  letter-spacing: 1px; font-size: 1.5vw;
 }
 
 input,
@@ -118,14 +124,14 @@ textarea {
 }
 
 button {
-  margin-top: 1rem;
+  margin-top: 1rem; font-family:inherit ;
   padding: 14px;
   background: #0a1e25;
   color: white;
   border: none;
   letter-spacing: 2px;
   cursor: pointer;
-  transition: background 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 button:hover {
@@ -181,7 +187,7 @@ h2{
 
 .last_part .arrow{
     background: black; color: aliceblue; border-radius: 50%;
-    padding:6px;
+    padding:8px;
     transition: all 500ms ease;
     width:30px; height:auto;
     text-align: center;
@@ -192,8 +198,36 @@ h2{
    transform:translateX(8px) ;
    background-color: rgb(150, 254, 181);
 }
+/* logo sliding animation and design  */
+.slide-logo-window{
+  display: flex; align-items: center;
+  width: 100%; overflow: hidden;
+  padding: 3vw;
+  background-color: #dedecc;
+}
+.slide-track{
+  display: flex; gap: 4.4vw;
+  animation: scroll 20s ease-in-out infinite ;
+  transition: all ease-in;
+}
+.slide-track img{
+  width: auto;
+  height: 4.2vw;
+}
+.slide-track:hover{
+  animation-play-state:paused;
+}
 
+@keyframes scroll {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-50%);
+  }
+}
 
+/* footer container design */
 
 footer{
     --tw-bg-opacity:1;
